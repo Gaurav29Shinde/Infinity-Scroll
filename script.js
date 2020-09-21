@@ -10,7 +10,7 @@ let isInitialLoad = true // check if it is the first time loading the page or on
 
 //Unsplash API
 let initialCount = 5; //initially 5 photos will be loaded instead of 30 
-const apiKey = 'V2F-j0YvHlt2JWuV-zwumnNWbyB3PevBYwNjZKMp_fY';
+const apiKey = 'V2F-j0YvHlt2JWuV-zwumnNWbyB3PevBYwNjZKMp_fY'; //Enter your own api key here!
 const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${initialCount}`; //pass 5 photos to load
 
 // update the apiUrl with 30 photos as picCount after initial load
